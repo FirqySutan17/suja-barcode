@@ -57,10 +57,10 @@ class Barcode extends CI_Controller {
                 // Format data untuk QR Code
                 $qr_content = "Item: {$item}\nProd: {$prod}\nExp: {$exp}";
 
-                // Generate QR Code (versi 3.x)
                 $qr = new QrCode($qr_content);
                 $qr->setSize(300);
                 $qr->setMargin(10);
+                $qr->setForegroundColor(['r' => 255, 'g' => 0, 'b' => 0]); // Warna merah
 
                 $filename = 'qr_' . time() . '.png';
                 $path = FCPATH . 'uploads/' . $filename;
