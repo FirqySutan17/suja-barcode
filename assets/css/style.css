@@ -1,0 +1,186 @@
+/*@font-face {
+    font-family: pjsBold;
+    src: url("../font/Plus_Jakarta_Sans/pjs-bold.ttf");
+}
+
+@font-face {
+    font-family: pjsBoldItalic;
+    src: url("../font/Plus_Jakarta_Sans/pjs-bolditalic.ttf");
+}
+
+@font-face {
+    font-family: pjsExtraBold;
+    src: url("../font/Plus_Jakarta_Sans/pjs-extrabold.ttf");
+}
+
+@font-face {
+    font-family: pjsExtraBoldItalic;
+    src: url("../font/Plus_Jakarta_Sans/pjs-extrabolditalic.ttf");
+}
+
+@font-face {
+    font-family: pjsExtraLight;
+    src: url("../font/Plus_Jakarta_Sans/pjs-extralight.ttf");
+}
+
+@font-face {
+    font-family: pjsExtraLightItalic;
+    src: url("../font/Plus_Jakarta_Sans/pjs-extralightitalic.ttf");
+}
+
+@font-face {
+    font-family: pjsItalic;
+    src: url("../font/Plus_Jakarta_Sans/pjs-italic.ttf");
+}
+
+@font-face {
+    font-family: pjsLight;
+    src: url("../font/Plus_Jakarta_Sans/pjs-light.ttf");
+}
+
+@font-face {
+    font-family: pjsLightItalic;
+    src: url("../font/Plus_Jakarta_Sans/pjs-lightitalic.ttf");
+}
+
+@font-face {
+    font-family: pjsMedium;
+    src: url("../font/Plus_Jakarta_Sans/pjs-medium.ttf");
+}
+
+@font-face {
+    font-family: pjsMediumItalic;
+    src: url("../font/Plus_Jakarta_Sans/pjs-mediumitalic.ttf");
+}
+
+@font-face {
+    font-family: pjsReguler;
+    src: url("../font/Plus_Jakarta_Sans/pjs-reguler.ttf");
+}
+
+@font-face {
+    font-family: pjsSemiBold;
+    src: url("../font/Plus_Jakarta_Sans/pjs-semibold.ttf");
+}
+
+@font-face {
+    font-family: pjsSemiBoldItalic;
+    src: url("../font/Plus_Jakarta_Sans/pjs-semibolditalic.ttf");
+}*/
+
+@font-face {
+    font-family: cjFont;
+    src: url("../font/cjfont.ttf");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: cjFont;
+}
+
+h3 {
+    font-family: cjFont !important;
+    margin-top: 0px !important;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: cjFont;
+}
+
+.body-auth {
+    background-image: url("../img/bg-auth.png");
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+._card {
+    width: 340px;
+    padding: 30px 15px;
+    border: 1px solid #dddddd;
+    border-radius: 10px;
+}
+
+.card-body {
+    padding-top: 0px;
+}
+
+.card h2 {
+    font-family: cjFont;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.card label {
+    font-family: cjFont;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.card a.btn-forgot {
+    font-family: cjFont;
+    font-size: 12px;
+    text-decoration: none;
+    color: #f59e0b;
+    padding: 0px;
+    float: right;
+    margin-top: 7px;
+}
+
+.card .btn-sign {
+    background: #f59e0b;
+    border-radius: 8px;
+    width: 100%;
+    padding: 8px 20px;
+    color: #fff;
+    font-family: cjFont;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.card p {
+    margin-bottom: 0px;
+}
+
+.ca {
+    color: #f59e0b;
+    text-decoration: none;
+    font-family: cjFont;
+}
+
+.forgot-note {
+    font-family: cjFont;
+    font-size: 14px;
+    margin-bottom: 15px !important;
+}
+
+input,
+input::placeholder {
+    font-size: 13px;
+}
+
+.btn-back {
+    border: 1px solid #dddddd;
+    background: transparent;
+    color: #f59e0b;
+    border-radius: 8px;
+    width: 100%;
+    padding: 8px 20px;
+    font-family: cjFont;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+label {
+    margin-bottom: 5px;
+}
